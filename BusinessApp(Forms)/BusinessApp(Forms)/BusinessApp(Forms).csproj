@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1860FB55-C5BF-4F6A-8F21-13AF303221D7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BusinessApp_Forms_</RootNamespace>
+    <AssemblyName>BusinessApp%28Forms%29</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TechStream">
+      <HintPath>..\..\TechStream\TechStream\bin\Debug\TechStream.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ObjectHandler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Sales.Designer.cs">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Add.Designer.cs">
+      <DependentUpon>Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AddMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AddMoney.Designer.cs">
+      <DependentUpon>AddMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Buy Second Hand Device.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Buy Second Hand Device.Designer.cs">
+      <DependentUpon>Buy Second Hand Device.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BuyEarbuds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BuyEarbuds.Designer.cs">
+      <DependentUpon>BuyEarbuds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BuyLaptop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BuyLaptop.Designer.cs">
+      <DependentUpon>BuyLaptop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BuyMobile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BuyMobile.Designer.cs">
+      <DependentUpon>BuyMobile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BuySW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BuySW.Designer.cs">
+      <DependentUpon>BuySW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CRUDMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CRUDMenu.Designer.cs">
+      <DependentUpon>CRUDMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CustomerUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CustomerUI.Designer.cs">
+      <DependentUpon>CustomerUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Delete.Designer.cs">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\GiveFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\GiveFeedback.Designer.cs">
+      <DependentUpon>GiveFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HandleDevices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\HandleDevices.Designer.cs">
+      <DependentUpon>HandleDevices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ShowFeedbacks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ShowFeedbacks.Designer.cs">
+      <DependentUpon>ShowFeedbacks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Sign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Sign.Designer.cs">
+      <DependentUpon>Sign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SignIn.Designer.cs">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserDevices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UserDevices.Designer.cs">
+      <DependentUpon>UserDevices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Watch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Watch.Designer.cs">
+      <DependentUpon>Watch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\WatchUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\WatchUsers.Designer.cs">
+      <DependentUpon>WatchUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\Validation.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Sales.resx">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Add.resx">
+      <DependentUpon>Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AddMoney.resx">
+      <DependentUpon>AddMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Buy Second Hand Device.resx">
+      <DependentUpon>Buy Second Hand Device.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BuyEarbuds.resx">
+      <DependentUpon>BuyEarbuds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BuyLaptop.resx">
+      <DependentUpon>BuyLaptop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BuyMobile.resx">
+      <DependentUpon>BuyMobile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BuySW.resx">
+      <DependentUpon>BuySW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CRUDMenu.resx">
+      <DependentUpon>CRUDMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CustomerUI.resx">
+      <DependentUpon>CustomerUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Delete.resx">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\GiveFeedback.resx">
+      <DependentUpon>GiveFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HandleDevices.resx">
+      <DependentUpon>HandleDevices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ShowFeedbacks.resx">
+      <DependentUpon>ShowFeedbacks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Sign.resx">
+      <DependentUpon>Sign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SignIn.resx">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserDevices.resx">
+      <DependentUpon>UserDevices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Watch.resx">
+      <DependentUpon>Watch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\WatchUsers.resx">
+      <DependentUpon>WatchUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mobile.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

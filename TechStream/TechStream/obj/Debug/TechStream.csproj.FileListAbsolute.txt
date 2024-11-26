@@ -1,0 +1,6 @@
+D:\Tayyab\BusinessAppProject\TechStream\TechStream\bin\Debug\TechStream.dll
+D:\Tayyab\BusinessAppProject\TechStream\TechStream\bin\Debug\TechStream.pdb
+D:\Tayyab\BusinessAppProject\TechStream\TechStream\obj\Debug\TechStream.csproj.AssemblyReference.cache
+D:\Tayyab\BusinessAppProject\TechStream\TechStream\obj\Debug\TechStream.csproj.CoreCompileInputs.cache
+D:\Tayyab\BusinessAppProject\TechStream\TechStream\obj\Debug\TechStream.dll
+D:\Tayyab\BusinessAppProject\TechStream\TechStream\obj\Debug\TechStream.pdb

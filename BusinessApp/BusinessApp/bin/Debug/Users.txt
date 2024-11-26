@@ -1,0 +1,3 @@
+Subhan,Amir9876,CUSTOMER,1234567890123,35000,GOOD SHOP,VIVO 13C
+Tayyab,Amir1234,Admin
+kokoko,kokokoko,CUSTOMER,0987654321123,40001,A man will die But not the ideas,IPHONE 12
